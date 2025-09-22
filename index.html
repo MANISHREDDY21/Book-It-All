@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookItAll - All-in-One Travel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">BookItAll</div>
+        <nav>
+            <ul>
+                <li><a href="#bus">Bus</a></li>
+                <li><a href="#train">Train</a></li>
+                <li><a href="#flight">Flight</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>BookItAll - Travel Made Easy</h1>
+        <p>Book buses, trains, and flights all in one place.</p>
+    </section>
+
+    <!-- Bus Booking Section -->
+    <section id="bus" class="booking-section">
+        <h2>Bus Booking</h2>
+        <form id="busForm">
+            <input type="text" placeholder="From" name="from" required>
+            <input type="text" placeholder="To" name="to" required>
+            <input type="date" name="date" required>
+            <button type="submit">Search Bus</button>
+        </form>
+        <div class="results" id="busResults"></div>
+    </section>
+
+    <!-- Train Booking Section -->
+    <section id="train" class="booking-section">
+        <h2>Train Booking</h2>
+        <form id="trainForm">
+            <input type="text" placeholder="From" name="from" required>
+            <input type="text" placeholder="To" name="to" required>
+            <input type="date" name="date" required>
+            <button type="submit">Search Train</button>
+        </form>
+        <div class="results" id="trainResults"></div>
+    </section>
+
+    <!-- Flight Booking Section -->
+    <section id="flight" class="booking-section">
+        <h2>Flight Booking</h2>
+        <form id="flightForm">
+            <input type="text" placeholder="From" name="from" required>
+            <input type="text" placeholder="To" name="to" required>
+            <input type="date" name="date" required>
+            <button type="submit">Search Flight</button>
+        </form>
+        <div class="results" id="flightResults"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BookItAll. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
