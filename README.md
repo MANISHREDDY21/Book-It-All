@@ -1,4 +1,4 @@
-BookItAll:An All-in-One Travel Booking PLatform
+TravelMate:An All-in-One Travel Booking PLatform
 2410030322 - V MANISH REDDY
 2410030180 - A SHIVA KUMAR REDDY
 2410030396 - K MANISH REDDY
