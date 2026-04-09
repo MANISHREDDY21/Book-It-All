@@ -1,4 +1,4 @@
-TravelMate:An All-in-One Travel Booking PLatform
+BOOK IT ALL:An All-in-One Travel Booking PLatform
 2410030322 - V MANISH REDDY
 2410030396 - K MANISH REDDY
 2410030184 - HARISH
